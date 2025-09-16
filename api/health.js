@@ -1,4 +1,3 @@
-// migrated to JS at api/health.js
 export default function handler(_req, res) {
   res.status(200).json({ ok: true });
 }

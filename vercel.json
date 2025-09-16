@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/node" }
+  ],
+  "env": {
+    "TRAC_BASE_URL": "http://trac.intern.ungueltig.com:1337"
+  }
+}
